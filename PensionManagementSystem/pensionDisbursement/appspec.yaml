@@ -1,0 +1,10 @@
+version: 0.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:us-west-2:156962844638:task-definition/kb002:5"
+        LoadBalancerInfo:
+          ContainerName: "pension-disbursement"
+          ContainerPort: "9091"
+        PlatformVersion: "LATEST"

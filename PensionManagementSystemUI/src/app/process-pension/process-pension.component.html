@@ -1,0 +1,52 @@
+<header>
+    <div style="background-image:url(../../assets/images/Mesh_Header_Blue-LightBlue.png);background-size: contain">
+        <div class="ui-g">
+            <div class="ui-g-12 headerlabel">Pension Management System</div>
+        </div>
+    </div>
+</header>
+<br>
+<h1 style="color:Green; text-align:center">Success!</h1>
+<h4 style="color:green; text-align:center">Pension Disbursement is Successful</h4><br>
+<div class="col-md-12 bg-image">
+    <div class="container" align="center" style="padding-left: 25%;">
+        <br>
+        <h2 style="color: violet;">Pension Details</h2>
+        <form class="form">
+            <div class="col-md-8" style="text-align: center;color: white;">
+                <div class="form-group">
+                    <label for="name">Pensioner Name : </label>
+                    <input type="text" name="names" [(ngModel)]="names" placeholder="name"
+                        required="" disabled />
+                </div>
+                <div class="form-group">
+                    <label for="name">Aadhaar Number : </label>
+                    <input type="text" name="aadhaarNumber" [(ngModel)]="aadhaarNumber"
+                        placeholder="aadhaarNumber" required="" disabled />
+                </div>
+                <div class="form-group">
+                    <label for="name">Pension Amount : </label>
+                    <input type="text" name="pensionAmount" [(ngModel)]="pensionAmount"
+                        placeholder="pensionAmount" required="" disabled />
+                </div>
+                <div class="form-group">
+                    <label for="name">Type of Pension : </label>
+                    <input type="text" name="name" [(ngModel)]="typeOfPension"
+                        placeholder="type" required="" disabled />
+                </div>
+                <div class="form-group">
+                    <label for="name">Bank Name : </label>
+                    <input type="text" name="bankName" [(ngModel)]="bankName" placeholder="bankName"
+                        required="" disabled />
+                </div>
+                <div class="form-group">
+                    <label for="name">Bank Service Charge : </label>
+                    <input type="text" name="bankServiceCharge"
+                        [(ngModel)]="bankServiceCharge" placeholder="bankServiceCharge"
+                        required="" disabled />
+                </div>
+            </div>
+        </form>
+        <br>
+    </div>
+</div>

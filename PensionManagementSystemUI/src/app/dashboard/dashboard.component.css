@@ -1,0 +1,19 @@
+.bg-image {
+    /* The image used */
+    background-image: url("../../assets/images/rupees.jpg");
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-position: center;
+}
+.headerlabel {
+    color: rgb(255, 255, 255);
+    font: 20px arial;
+    list-style: height 50px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    padding-left: 15px;
+}
+.button{
+    color: blue;
+}
